@@ -1,0 +1,14 @@
+# Ignore virtual environment
+env/
+
+# Robot Framework results for interactive console
+interative_console_output.xml
+log.html
+output.xml
+report.html
+selenium-screenshot-*.png
+report/
+
+# Ignore chromedriver executable but keep directory
+drivers/chromedriver/chromedriver.exe
+!drivers/chromedriver/.gitkeep
