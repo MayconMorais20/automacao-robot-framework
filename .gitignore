@@ -10,7 +10,7 @@ selenium-screenshot-*.png
 
 # Ignore all files and folders in reports directory
 report/*
-!report/.gitkeep
+!report.gitkeep
 
 # Ignore chromedriver executable but keep directory
 drivers/chromedriver/chromedriver.exe
