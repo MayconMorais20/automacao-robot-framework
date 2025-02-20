@@ -7,7 +7,10 @@ log.html
 output.xml
 report.html
 selenium-screenshot-*.png
-report/
+
+# Ignore all files and folders in reports directory
+report/*
+!report/.gitkeep
 
 # Ignore chromedriver executable but keep directory
 drivers/chromedriver/chromedriver.exe
